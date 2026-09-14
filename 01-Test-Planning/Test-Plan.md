@@ -6,7 +6,6 @@ This document defines the testing approach for the Swag Labs e-commerce web appl
 
 The objective is to validate the main business functionalities of the application and ensure that critical user journeys work as expected.
 
----
 
 ## 2. Test Objectives
 
@@ -20,7 +19,6 @@ The main objectives of testing are to:
 - Validate critical end-to-end user journeys.
 - Prepare selected test cases for automation.
 
----
 
 ## 3. Scope
 
@@ -47,7 +45,6 @@ The following areas are not included in the initial testing scope:
 - Production environment testing
 - Third-party integrations
 
----
 
 ## 4. Test Types
 
@@ -63,7 +60,6 @@ The following types of testing will be performed:
 
 Selected scenarios will later be automated using Playwright.
 
----
 
 ## 5. Test Environment
 
@@ -84,7 +80,6 @@ Test URL:
 
 https://www.saucedemo.com/
 
----
 
 ## 6. Test Data
 
@@ -105,7 +100,6 @@ secret_sauce
 
 Additional invalid and empty credentials will be used for negative testing.
 
----
 
 ## 7. Entry Criteria
 
@@ -116,7 +110,6 @@ Testing can begin when:
 - Functional requirements have been identified.
 - The test environment is available.
 
----
 
 ## 8. Exit Criteria
 
@@ -128,7 +121,6 @@ Testing can be considered complete when:
 - No unresolved blocker defect prevents completion of critical flows.
 - A test summary report has been prepared.
 
----
 
 ## 9. Test Deliverables
 
@@ -144,7 +136,6 @@ The project will produce:
 - Test Summary Report
 - Automated Test Scripts
 
----
 
 ## 10. Tools
 
@@ -155,7 +146,6 @@ The following tools will be used during the project:
 - Playwright - Web test automation
 - Python / Pytest - Automated test execution
 
----
 
 ## 11. Risks
 
@@ -167,7 +157,6 @@ Potential testing risks include:
 - No access to the application database
 - Test accounts having predefined behaviors
 
----
 
 ## 12. Test Approach
 
